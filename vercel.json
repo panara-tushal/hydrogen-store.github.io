@@ -4,7 +4,7 @@
   "framework": null,
   "functions": {
     "dist/server/index.js": {
-      "runtime": "@vercel/node"
+      "runtime": "edge"
     }
   },
   "rewrites": [
