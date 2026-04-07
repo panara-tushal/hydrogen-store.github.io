@@ -188,11 +188,11 @@ export default function Collection() {
   }
 
   return (
-    <div className="collection ">
+    <div className="collection">
       <div className='page-width'>
         <div className="collection-header">
           <div>
-            <h1>All Products testing</h1>
+            <h1>All Products</h1>
           </div>
         </div>
       </div>
