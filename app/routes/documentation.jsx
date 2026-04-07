@@ -218,6 +218,20 @@ const product = [
         ],
          screenshots: [{ label: "View Screenshot", url: "app/assets/Screenshot_32.jpg" }],
     },
+    {
+        id: "detail-info",
+        name: "detail_info",
+        simple: true,
+        previewUrl: "app/assets/Screenshot_35.jpg",
+        description: "Use this metafield to set the product detail information that appears in the Details tab on the product page.",
+        steps: [
+            "Open the product in Shopify Admin.",
+            "In the product metafields section, add custom. detail info.",
+            "add Detail information in the text field.",
+            "Save the product",
+        ],
+         screenshots: [{ label: "View Screenshot", url: "app/assets/Screenshot_36.jpg" }],
+    },
 ];
 
 const metaobjectSteps = [
@@ -357,8 +371,8 @@ export default function Documentation() {
                                     <div className="hcg-section-description">{s.description}</div>
                                 )}
 
-<div>
-                                
+                                <div>
+
                                 <div className={s.simple ? "hcg-card-body-single" : "hcg-card-body-inner"}>
 
                                     {/* Left col: notice + how it works (complex only) */}
@@ -401,7 +415,7 @@ export default function Documentation() {
                                             ))}
                                         </div>
 
-                                        {s.screenshots.length == 1 && (
+                                        {s.screenshots && s.simple && (
                                             <div className="hcg-screenshot-links">
                                                 {s.screenshots.map((sc, i) => (
                                                     <div key={i} className="hcg-screenshot-item">
@@ -419,7 +433,7 @@ export default function Documentation() {
 
                                 </div>
 
-                                {s.screenshots.length > 1 && (
+                                        {s.screenshots && !s.simple && (
                                             <div className="hcg-screenshot-links">
                                                 {s.screenshots.map((sc, i) => (
                                                     <div key={i} className="hcg-screenshot-item">
