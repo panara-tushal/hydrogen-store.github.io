@@ -1,8 +1,13 @@
 export default function Documentation() {
-  return (
-    <div>
-      <h1>Documentation</h1>
-      <p>This is the documentation page.</p>
-    </div>
-  );
+    return (
+        <div className="documentation">
+            <div className="page-width">
+                <div className="documentation-header">
+                    <div>
+                        <h1>Documentation</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 }
