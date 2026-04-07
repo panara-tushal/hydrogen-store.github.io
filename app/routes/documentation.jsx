@@ -123,19 +123,6 @@ const sections = [
         screenshots: [{ label: "View Screenshot", url: "app/assets/Screenshot_19.jpg" }],
     },
     {
-        id: "product-add",
-        name: "Product Add",
-        simple: true,
-        description: "Use these variant metafields to add gallery media and engraving preview images for product variants.",
-        steps: [
-            "Open the product in Shopify Admin.",
-            "Select the variant you want to customize.",
-            "In the variant metafields section, add custom.variant_media or custom.engraving_preview as needed.",
-            "Attach media references, upload a preview image, or update both fields.",
-            "Save the variant and refresh the product page.",
-        ],
-    },
-    {
         id: "collection-heading",
         name: "Collection or Product Heading",
         simple: false,
