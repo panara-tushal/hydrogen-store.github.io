@@ -176,9 +176,9 @@ const sections = [
 const product = [
     {
         id: "variant-media",
-        name: "variant_media",
+        name: "Variant Media",
         simple: true,
-        previewUrl: "https://cdn.shopify.com/s/files/1/0610/2194/5934/files/Screenshot_34.jpg?v=1775556306",
+        previewUrl: "https://cdn.shopify.com/s/files/1/0610/2194/5934/files/Screenshot_31.jpg?v=1775556306",
         description: "Add variant-specific gallery media so selected variants can show extra images or videos in the product media carousel.",
         steps: [
             "Open the product in Shopify Admin.",
@@ -191,9 +191,9 @@ const product = [
     },
     {
         id: "engraving-preview",
-        name: "engraving_preview",
+        name: "Engraving Preview",
         simple: true,
-        previewUrl: "https://cdn.shopify.com/s/files/1/0610/2194/5934/files/Screenshot_31.jpg?v=1775556306",
+        previewUrl: "https://cdn.shopify.com/s/files/1/0610/2194/5934/files/Screenshot_34.jpg?v=1775556306",
         description: "Use this metafield to set the engraving preview image for a variant on products tagged ENGAGEMENT RINGS.",
         steps: [
             "Open the product in Shopify Admin.",
@@ -207,7 +207,7 @@ const product = [
     },
     {
         id: "detail-info",
-        name: "detail_info",
+        name: "Detail Info",
         simple: true,
         previewUrl: "https://cdn.shopify.com/s/files/1/0610/2194/5934/files/Screenshot_35.jpg?v=1775556306",
         description: "Use this metafield to set the product detail information that appears in the Details tab on the product page.",
